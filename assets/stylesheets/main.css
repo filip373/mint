@@ -1,0 +1,146 @@
+body {
+  width: 850px;
+  margin: 50px auto;
+}
+
+header {
+  overflow: auto;
+}
+
+.header-logo {
+  float: left;
+}
+
+.sign-links {
+  float: right;
+}
+
+.sign-links a {
+  text-decoration: none;
+}
+
+.sign-links .sign-in {
+  color: #444;
+}
+
+.sign-links .sign-in::after {
+  content: "|";
+  margin: 0 10px;
+}
+
+.sign-links .log-in {
+  color: #888;
+}
+
+.main-frame {
+  border: 1px solid #eee;
+  overflow: auto;
+  margin: 5px auto 30px auto;
+}
+
+.main-frame section {
+  float: left;
+  width: 55%;
+  padding: 20px 50px 50px 50px;
+}
+
+form label {
+  display: block;
+}
+
+.main-frame aside {
+  float: right;
+  width: 30%;
+  border-left: 1px solid #bbb;
+}
+
+.aside-notes {
+  margin: 40px 20px;
+  background-color: #eee;
+  padding: 10px 15px 200px 15px;
+}
+
+.aside-notes h3 {
+  text-align: center;
+}
+
+.aside-notes ul {
+  padding-left: 20px;
+}
+
+.aside-notes li {
+  font-size: 13px;
+  margin: 15px auto;
+}
+
+.aside-notes a {
+  color: #777;
+  font-size: 11px;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+input[type=email], input[type=password] {
+  margin-bottom: 25px;
+  font-size: 18px;
+  width: 300px;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.main-frame section h1 {
+  margin-bottom: 40px;
+}
+
+form button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #45cae6;
+  border: none;
+  border-radius: 1px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font: 15px sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-frame small {
+  color: #999;
+}
+
+.main-frame small a {
+  text-decoration: none;
+  color: #45cae6;
+}
+
+footer {
+  text-align: center;
+  color: #aaa;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer span:not(:last-child):after {
+  content: "|";
+  margin: 0 20px;
+}
+
+footer .links {
+  margin: 30px auto;
+}
